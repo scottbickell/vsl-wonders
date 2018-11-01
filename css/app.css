@@ -118,6 +118,9 @@ th.large-4.first {
 th.large-4.last {
   padding-right: 16px; }
 
+th.large-4 center {
+  min-width: 152px; }
+
 th.large-6 {
   width: 284px;
   padding-left: 8px;
@@ -131,6 +134,17 @@ th.large-6.last {
 
 th.large-6 center {
   min-width: 252px; }
+
+th.large-8 {
+  width: 384px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-8.first {
+  padding-left: 16px; }
+
+th.large-8 center {
+  min-width: 352px; }
 
 th.large-9 {
   width: 434px;
@@ -255,14 +269,14 @@ p {
   Margin-bottom: 16px; }
 
 a {
-  color: #76bd22;
+  color: #005587;
   text-decoration: none; }
   a:hover {
-    color: #5b921a; }
+    color: #003554; }
   a:active {
-    color: #5b921a; }
+    color: #003554; }
   a:visited {
-    color: #76bd22; }
+    color: #005587; }
 
 span.invisible-previewline {
   display: none !important;
@@ -283,8 +297,8 @@ table.button {
   table.button table td {
     text-align: left;
     color: #fefefe;
-    background: #76bd22;
-    border: 2px solid #76bd22; }
+    background: #005587;
+    border: 2px solid #005587; }
     table.button table td a {
       font-family: Helvetica, Arial, sans-serif;
       font-size: 16px;
@@ -293,7 +307,7 @@ table.button {
       text-decoration: none;
       display: inline-block;
       padding: 8px 16px 8px 16px;
-      border: 0 solid #76bd22;
+      border: 0 solid #005587;
       border-radius: 3px; }
   table.button.radius table td {
     border-radius: 3px;
@@ -326,13 +340,13 @@ table.button.small table a {
 table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
-  background: #5b921a;
+  background: #003554;
   color: #fefefe; }
 
 table.button:hover table a,
 table.button:visited table a,
 table.button:active table a {
-  border: 0 solid #5b921a; }
+  border: 0 solid #003554; }
 
 @media only screen and (max-width: 616px) {
   table.body img {
@@ -494,3 +508,9 @@ sup {
   line-height: 12px;
   display: inline-block;
   margin-left: 3px; }
+
+.highlight-row {
+  background: #ffbf3d; }
+
+.white-text {
+  color: #ffffff !important; }
